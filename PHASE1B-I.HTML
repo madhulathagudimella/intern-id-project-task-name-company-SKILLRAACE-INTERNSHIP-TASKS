@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for Photo Gallery */
+    body {
+      background-repeat:no-repeat;
+      background-size:cover;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+    }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(255, 0, 0, 0.6);
+      transition: transform 0.3s ease-in-out;
+    }
+    .gallery-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(255, 0, 0, 0.6);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 5px solid transparent;
+      transition: border-color 0.3s ease-in-out;
+    }
+    .gallery-item:hover img {
+      border-color: #ff69b4;
+    }
+  </style>
+</head>
+<body=""
+
+<div class="container mt-5">
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="https://wallpapercave.com/wp/wp11180071.jpg" alt="Image 1">
+    </div>
+    <div class="gallery-item">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.b4QAyPKkxlCQy67KLbgVeAHaO0&pid=Api&P=0&h=180" alt="Image 2">
+    </div>
+    <div class="gallery-item">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.0vqjUSQjGVsNsLYhGsn5SwHaMt&pid=Api&P=0&h=180" alt="Image 3">
+    </div>
+    <div class="gallery-item">
+      <img src="https://wallpapercave.com/wp/wp5889323.jpg" alt="Image 4">
+    </div>
+    <div class="gallery-item">
+      <img src="https://wallpapersmug.com/download/1080x2160/9196ec/anime-girl-cute-with-umbrella-art.jpg" alt="Image 5">
+    </div>
+    <div class="gallery-item">
+      <img src="https://tse2.explicit.bing.net/th?id=OIP.Udy6p3AGK4DlpzM1k2K19gHaMV&pid=Api&P=0&h=180" alt="Image 6">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
