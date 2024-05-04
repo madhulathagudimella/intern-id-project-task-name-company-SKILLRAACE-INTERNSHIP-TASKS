@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for Contact Form */
+    body, html {
+      height: 100%;
+    }
+    .bg-image {
+      background-repeat:no-repeat;
+      background-size: cover;
+      height: 100%;
+      background-position: center;
+    }
+    .contact-form {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    .form-control {
+      border: none;
+      border-bottom: 2px solid #007bff;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .form-control:focus {
+      border-color: #007bff;
+      box-shadow: none;
+    }
+    .form-label {
+      font-weight: bold;
+      color: #333;
+    }
+    .btn-custom {
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .btn-custom:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body background="http://www.businesseye.co.uk/app/uploads/2020/08/contactus2.jpg" alt="contact image">
+
+<div class="bg-image">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="contact-form">
+          <h2 class="text-center mb-4">Contact Us</h2>
+          <form>
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
