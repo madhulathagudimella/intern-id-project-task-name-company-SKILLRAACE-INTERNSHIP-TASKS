@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-repeat:no-repeat;
+      background-size:cover;
+      font-family: cursive;
+      background-color: #000;
+    }
+
+    .pricing-box {
+      background-color:#fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .pricing-box:hover {
+      transform: translateY(9px);
+    }
+
+    .pricing-box .title {
+      font-size: 24px;
+      color: #87CEEB ; /* SKY BLUE*/
+    }
+
+    .pricing-box .price {
+      font-size: 36px;
+      font-weight: bold;
+      color: #87CEEB ; /*SKY BLUE */
+      margin-top: 30px;
+    }
+
+    .pricing-box .features {
+      margin-top: 30px;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .pricing-box .features li {
+      margin-bottom: 30px;
+      color: #777;
+    }
+
+    .pricing-box .features li i {
+      margin-right: 5px;
+      color: #87CEEB ; /* SKY BLUE*/
+    }
+
+    .btn-signup {
+      background-color: #87CEEB ; /* SKY BLUE*/
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-signup:hover {
+      background-color:#87CEEB ; /*SKY BLUE */
+    }
+  </style>
+</head>
+<body background="https://wallpapercave.com/wp/rQHreqA.jpg"
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div class="pricing-box">
+          <div class="title">Basic</div>
+          <div class="price">$9.99/month</div>
+          <ul class="features">
+            <li><i class="fas fa-check"></i> 10GB Storage</li>
+            <li><i class="fas fa-check"></i> 1 Email Account</li>
+            <li><i class="fas fa-check"></i> 24/7 Support</li>
+          </ul>
+          <button class="btn btn-signup">Sign Up</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing-box">
+          <div class="title">Pro</div>
+          <div class="price">$19.99/month</div>
+          <ul class="features">
+            <li><i class="fas fa-check"></i> 50GB Storage</li>
+            <li><i class="fas fa-check"></i> 5 Email Accounts</li>
+            <li><i class="fas fa-check"></i> 24/7 Support</li>
+          </ul>
+          <button class="btn btn-signup">Sign Up</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing-box">
+          <div class="title">Business</div>
+          <div class="price">$39.99/month</div>
+          <ul class="features">
+            <li><i class="fas fa-check"></i> 100GB Storage</li>
+            <li><i class="fas fa-check"></i> 10 Email Accounts</li>
+            <li><i class="fas fa-check"></i> 24/7 Support</li>
+          </ul>
+          <button class="btn btn-signup">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
